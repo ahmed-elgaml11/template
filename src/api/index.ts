@@ -1,5 +1,5 @@
 import express from "express";
-import firstResponse from "../interfaces/firstResponse";
+import firstResponse from "../types/firstResponse";
 import something from './something/something.routes'
 const router = express.Router();
 
